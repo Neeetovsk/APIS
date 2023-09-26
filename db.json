@@ -1,32 +1,204 @@
 {
-    "users":[
-        {
-            "id":1,
-            "name":"John"
-        },
-        {
-            "id":2,
-            "name":"Jane Smith"
-        }
+    "categorias": [
+    {
+        "id": 1,
+        "nome": "Ficção"
+    },
+    {
+        "id": 2,
+        "nome": "Não Ficção"
+    },
+    {
+        "id": 3,
+        "nome": "História"
+    },
+
+    {   "id": 4,
+       "nome": "Romance"
+    },
+
+    {   "id": 5,
+        "nome": "Mistério"
+    },
+
+    {   "id": 6,
+        "nome": "Suspense"
+    },
+
+    {   "id": 7,
+        "nome": "Ficção Histórica"
+    },
+
+    {   "id": 8,
+        "nome": "Autoajuda"
+    },
+
+    {   "id": 9,
+        "nome": "Biografia"
+    },
+
+    {   "id": 10,
+        "nome": "Fantasia Épica"
+    },
+
+    {   "id": 11,
+        "nome": "Tecnologia"
+    },
+
+    {   "id": 12,
+        "nome": "História"
+    },
+
+    {   "id": 13,
+        "nome": "Filosofia"
+    }
     ],
-    "posts":[
-        {
-            "id":1,
-            "title":"Post",
-            "body":"Conteúdo do Post 1",
-            "userid":1
-        },
-        {
-            "id":2,
-            "title":"Post",
-            "body":"Conteúdo do Post 2",
-            "userid":1
-        },
-        {
-            "id":2,
-            "title":"Post",
-            "body":"Conteúdo do Post 3",
-            "userid":2
-        }
+    "livros": [
+      { 
+        "id":1,
+        "titulo": "Dom Quixote",
+        "autor": "Miguel de Cervantes",
+        "anoPublicacao": 1605,
+        "isbn": "978-85-359-0277-3",
+        "disponivel": true,
+        "categoriaId": 1
+      },
+      {
+        "id":2,
+        "titulo": "Origens",
+        "autor": "Neil deGrasse Tyson",
+        "anoPublicacao": 2017,
+        "isbn": "978-85-359-0650-4",
+        "disponivel": true,
+        "categoriaId": 2
+      },
+      {
+        "id":3,
+        "titulo": "Uma Breve História do Tempo",
+        "autor": "Stephen Hawking",
+        "anoPublicacao": 1988,
+        "isbn": "978-85-359-0278-0",
+        "disponivel": false,
+        "categoriaId": 2
+      },
+    {"id": 5,
+     "titulo": "O Código da Vinci",
+    "autor": "Dan Brown",
+    "anoPublicacao": 2003,
+    "isbn": "978-85-359-0650-5",
+    "disponivel": true,
+    "categoriaId": 5
+    },
+    {"id": 6,
+     "titulo": "A Garota no Trem",
+    "autor": "Paula Hawkins",
+    "anoPublicacao": 2015,
+    "isbn": "978-85-359-0278-1",
+    "disponivel": false,
+    "categoriaId": 6
+},
+    {"id": 7,
+     "titulo": "A Sutil Arte de Ligar o F*da-se",
+    "autor": "Mark Manson",
+    "anoPublicacao": 2016,
+    "isbn": "978-85-359-0277-2",
+    "disponivel": true,
+    "categoriaId": 7
+},
+    {"id": 8,
+     "titulo": "Senhor dos Anéis: A Sociedade do Anel",
+    "autor": "J.R.R. Tolkien",
+    "anoPublicacao": 1954,
+    "isbn": "978-85-359-0277-4",
+    "disponivel": true,
+    "categoriaId": 8
+},
+    {"id": 9,
+     "titulo": "A História Secreta",
+    "autor": "Donna Tartt",
+    "anoPublicacao": 1992,
+    "isbn": "978-85-359-0650-6",
+    "disponivel": false,
+    "categoriaId": 9
+},
+    {"id": 10, "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K. Rowling",
+    "anoPublicacao": 1997,
+    "isbn": "978-85-359-0278-2",
+    "disponivel": true,
+    "categoriaId": 10
+},
+    {"id": 11,
+     "titulo": "O Poder do Hábito",
+    "autor": "Charles Duhigg",
+    "anoPublicacao": 2012,
+    "isbn": "978-85-359-0277-5",
+    "disponivel": true,
+    "categoriaId": 11
+},
+    {"id": 12,
+     "titulo": "A Revolução dos Bichos",
+    "autor": "George Orwell",
+    "anoPublicacao": 1945,
+    "isbn": "978-85-359-0650-7",
+    "disponivel": false,
+    "categoriaId": 12
+},
+    {"id": 13,
+     "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "anoPublicacao": 1943,
+    "isbn": "978-85-359-0278-3",
+    "disponivel": true,
+    "categoriaId": 13
+},
+    {"id": 14,
+     "titulo": "1984",
+    "autor": "George Orwell",
+    "anoPublicacao": 1949,
+    "isbn": "978-85-359-0650-8",
+    "disponivel": true,
+    "categoriaId": 4
+},
+    {"id": 15, 
+    "titulo": "A Cabana",
+    "autor": "William P. Young",
+    "anoPublicacao": 2007,
+    "isbn": "978-85-359-0277-6",
+    "disponivel": false,
+    "categoriaId": 5
+},
+    {"id": 16,
+    "titulo": "O Silmarillion",
+    "autor": "J.R.R. Tolkien",
+    "anoPublicacao": 1977,
+    "isbn": "978-85-359-0650-9",
+    "disponivel": true,
+    "categoriaId": 6
+},
+    {"id": 17,
+     "titulo": "Pai Rico, Pai Pobre",
+    "autor": "Robert T. Kiyosaki",
+    "anoPublicacao": 1997,
+    "isbn": "978-85-359-0278-4",
+    "disponivel": true,
+    "categoriaId": 7
+},
+    {"id": 18,
+     "titulo": "Crime e Castigo",
+    "autor": "Fiódor Dostoiévski",
+    "anoPublicacao": 1866, "isbn": "978-85-359-0650-0",
+    "disponivel": false,
+    "categoriaId": 8
+},
+    {"id": 4,
+     "titulo": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "anoPublicacao": 1813,
+    "isbn": "978-85-359-0277-1",
+    "disponivel": true,
+    "categoriaId": 4
+}
     ]
 }
+  

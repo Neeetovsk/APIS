@@ -1,0 +1,11 @@
+{
+    "categorias": [
+      { "id": 1, "nome": "Ficção Científica" },
+      { "id": 2, "nome": "Fantasia" }
+    ],
+    "livros": [
+      { "id": 1, "titulo": "Livro 1", "categoriaId": 1 },
+      { "id": 2, "titulo": "Livro 2", "categoriaId": 2 }
+    ]
+  }
+  
